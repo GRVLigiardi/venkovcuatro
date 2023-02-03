@@ -18,7 +18,7 @@
                 <li><a href="/index.html">Inicio</a></li>
                 <li><a href="quienessomos.html">Quienes somos</a></li>
                 <li><a href="productos.html">Productos</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -26,25 +26,34 @@
 <section id="intro" class="main style1 right dark fullscreen">
         <div class="content">
             <header>
-                <a href="" class="float" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5493413021300" class="float" target="https://wa.me/5493413021300">
                     <i class="fa fa-whatsapp my-float"></i>
                     </a>
             </header>
             <img id ="venkologo" class="venkologocompleto" src="images/VENKOlogocompleto.png" alt="venko logo completo">
             <h1 style="font-size: larger;">WE<strong style="color:#b267e0">AR</strong> PASSION
             <footer>
-              <article>
+              <article>        
+    
+            <form
+            action="https://formspree.io/f/mnqyjynn"
+            method="POST"
+          >
+            <label>
+              Email:
+              <input type="email" name="email"style="color: black;">
+            </label>
+            <label>
+              Mensaje:
+              <textarea name="message" style="color: black;"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Enviar</button>
+          </form>
+
                       
-            <label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
-        
-            <form action="" method="post" class="contactform">
-              <p class="input_wrapper"><input type="text" name="contact_nom" value=""  id ="contact_nom"><label for="contact_nom">NOMBRE</label></p>
-              <p class="input_wrapper"><input type="text" name="contact_email" value=""  id ="contact_email"><label for="contact_email">EMAIL</label></p>
-              <p class="input_wrapper"><input type="text" name="contact_sujet" value=""  id ="contact_sujet"><label for="contact_sujet">ASUNTO</label></p>
-              <p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
-              <p class="submit_wrapper"><input type="submit" value="Enviar"></p>     
-            </form>
-   
+                       
+  
     </article>
     </section>
 </body>
@@ -57,6 +66,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+    
 
 	</body>
 </html>
